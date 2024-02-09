@@ -1,0 +1,25 @@
+title{color:olivedrab;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+p{color:rgb(194, 37, 37);
+  font-size:2em;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 1rem;
+  padding:1rem;
+}
+h1, h2, h3, h4{color:green;
+         background-color:bisque;
+         font-weight:300;
+         text-align: left;
+}
+main p{color:black;
+     font-size:24px;
+     margin: 1rem 2rem;
+}
+a{color:orange
+}
+html{font-size:50px;
+}
+body{background-color:burlywood;
+  font-weight: 200;
+  padding:1rem;
+}
