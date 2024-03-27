@@ -35,7 +35,7 @@ main{padding:1rem;
 main img{max-width:100%;
         margin:.5rem 0;
 }
-.about-me h2{ background-image:url(images/me.jpeg);
+.about-me h2{ background-image:url(images/me.jpg);
             background-size: cover;
             padding:10rem 0 10rem 4rem;
             text-shadow:2px 2px 2px #0000008f;
