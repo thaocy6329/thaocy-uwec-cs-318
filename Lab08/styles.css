@@ -55,6 +55,7 @@ section>h2{position:relative;
             border-bottom: 2rem solid#e2512d;
 }
 article{display:none;
+        /*Missing padding:1rem;*/ 
 }
 article.show{display:block;
 }
@@ -63,9 +64,9 @@ section span{transform:rotate(180deg);
 span.rotate{ transform:rotate(0);
 }
 .sidelink{background-color:#27213C;
-                            font:#fff;
-                            padding:1rem 2rem;
-                            text-decoration:none;
+        font:#fff;/*color not font*/
+        padding:1rem 2rem;
+        text-decoration:none;
 
 }
 .sidelink{position:fixed;
@@ -76,17 +77,18 @@ span.rotate{ transform:rotate(0);
         color:#fff
 }
 @media (min-width:1000px){
-.animal-background{height:100rem;
-                    top:-25%;}
-section>h2{padding:23rem 0;
-            font-size:3rem;
-            background-position: center;}
-section span{font-size:4rem;
-            top:26rem;
-            left:48%;}
-nav{position:absolute;
-            top:1rem;
-            left:0rem;}
-}
-article{max-width: 60rem;
-        margin:0 auto;}
+        .animal-background{height:100rem;
+                        top:-25%;}
+        section>h2{padding:23rem 0;
+                font-size:3rem;
+                background-position: center;}
+        section span{font-size:4rem;
+                top:26rem;
+                left:48%;}
+        nav{position:absolute;
+                top:1rem;
+                left:0rem;}
+        }
+        article{max-width: 60rem;
+                margin:0 auto;}
+/*Missing } for media query*/
