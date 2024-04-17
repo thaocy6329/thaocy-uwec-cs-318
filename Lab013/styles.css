@@ -1,0 +1,25 @@
+body{padding:5rem;
+    background-color: darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Delete the white text on the next line*/
+th {background-color:darkgreen;
+    color: white;
+}
+tr:nth-child(even){background-color: #ffffe2;
+}
+tr:nth-child(odd){background-color: #e0e0cb;
+}
+/*Delete the white text on the next line*/
+td, th{padding: .5rem;
+}
+.title{font-size: 2rem;
+    color: goldenrod;}
+table{border-spacing:0;
+}
+.character{background-color: #023802;
+}
+.character:hover{background-color: #022502;
+}
+tr:hover{background-color: #D8D8B6;
+}
