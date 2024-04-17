@@ -1,0 +1,136 @@
+body{background-color: #0f0f0f;
+    color: #fcfbfc;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+}
+h1, h2, h3{font-family: 'Cinzel Decorative', cursive;
+        color: #f72127;
+}
+header{background-color: #18251c;
+    padding: 1rem;}
+nav>a{color: #fcfbfc;
+    background-color: #5c765a;
+    padding: 1rem;
+    font-weight: 800;
+    display:inline-block;
+    margin: 1rem 1rem 1rem 0;
+}
+.sidenav{background-color: #5c765a;
+        padding: .5rem 1rem;
+}
+.sidenav>a{background-color: #fae2c0;
+    color: #0f0f0f;
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+main{padding: 1rem;
+}
+section{padding: 0 1rem;
+}
+.title{margin: 0;
+    padding: 2rem 1rem;
+    background-color: #2e0105;
+}
+@media (min-width:1100px){
+body{display:grid;
+    grid-template-columns: 20rem auto;
+    }
+    .sidenav>a:hover{left: 0;
+        opacity: .7;
+    }
+    .sidenav>a{transition: opacity .2s ease-in-out, left .5s ease-in-out;
+        margin: 2rem;
+        left: -10rem;
+    }
+
+header{display:flex;
+    justify-content: space-between;
+    grid-row-start:1 ;grid-row-end:2; grid-column-start:1 ;grid-column-end:3;
+    display: flex;
+    justify-content: flex-end;
+}
+.sidenav>a{
+    display:block;
+    text-align: right;
+    display: block;
+    text-align: right;
+}
+}
+nav>a{transition-property: opacity;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+nav>a:hover{opacity: .7;
+}
+.sidenav>a{
+    margin: 1rem 2rem;
+    position: relative;
+}
+.sidenav>a:before, .sidenav>a:after{
+    position:absolute;
+    width: 1.7rem;
+    height: 2.5rem;
+    top: -.6rem;
+}
+.sidenav>a:before{
+    /*with content you need url(image/path) around the file name*/
+    content: url(images/scroll-left.svg);
+    left: -1.6rem;
+}
+.sidenav>a:after{
+    /*with content you need url(image/path) around the file name*/
+    content: url(images/scroll-right.svg);
+    right: -1.6rem;
+}
+section{padding-left: 5rem;
+        position: relative;
+}
+section:before{position:absolute;
+            width: 3rem;
+            height: 3rem;
+            left: 0;
+            right: 0;
+}
+#odin:before{content: url(images/odin.svg);
+}
+#alfheim:before{content: url(images/alfheim.svg);
+}
+#asgard:before{content: url(images/asgard.svg);
+}
+#baldr:before{content: url(images/baldr.svg);
+}
+#freyja:before{content: url(images/freyja.svg);
+}
+#freyr:before{content: url(images/freyr.svg);
+}
+#frigg:before{content: url(images/frigg.svg);
+}
+#heimdallr:before{content: url(images/heimdallr.svg);
+}
+#jotunheimr:before{content: url(images/jotunheimr.svg);
+}
+#midgard:before{content: url(images/midgard.svg);
+}
+#muspelheim:before{content: url(images/muspelheim.svg);
+}
+#nidavellir:before{content: url(images/nidavellir.svg);
+}
+#niflheim:before{content: url(images/niflheim.svg);
+}
+#ragnarok:before{content: url(images/ragnarok.svg);
+}
+#svartalfar:before{content: url(images/svartalfar.svg);
+}
+#thor:before{content: url(images/thor.svg);
+}
+
+#vanaheimr:before{content: url(images/vanaheimr.svg);
+}
+#loki:before{content: url(images/loki.svg);
+}
+#scroll-left:before{content: url(images\scroll-left.svg.svg);
+}
+#yggdrasil:before{content: url(images/yggdrasil.svg);
+}
+#scroll-right:before{content: url(images\scroll-right.svg);
+}
