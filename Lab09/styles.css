@@ -1,0 +1,43 @@
+body{background-color:rgb(17, 73, 6);
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+header a{color : rgb(255, 255, 255);
+    justify-content:center;     
+}
+header{text-align:center;
+    justify-content: space-between;
+        align-items:flex-end;
+    background-color: rgb(255, 255, 255);
+    padding:2rem;
+    background-image:url(images/gg-house.jpeg);
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+}
+main{padding:1rem
+}
+.home-content div{display:inline-block;
+            width:60%;
+}
+.home-content img{vertical-align: top;
+            width:38%;
+}
+img{max-width:100%;
+}
+
+.creatures{width:29%
+}
+.gallery h2{background-color:rgb(245,245,245);
+    color:rgb(15,15,46);
+    padding:2rem 4rem;
+}
+nav>a{background-color:rgb(17, 73, 6);
+   border: .12px solid rgb(245, 245, 245);
+    color:rgb(245, 245, 245);
+    text-decoration:none;
+    padding:0.5rem 2rem;
+    display:inline-block;
+    margin:1rem;
+}
