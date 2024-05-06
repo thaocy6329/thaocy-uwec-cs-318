@@ -1,0 +1,45 @@
+body{background-image:url(images/IMG_6430.JPG);
+    background-repeat:repeat;
+    background-size:10rem;
+}
+h1{display:inline-block;
+        margin:1rem 0;
+        vertical-align: text-bottom;
+        padding:0.1rem;
+}
+button{color:orange;
+}
+button:hover{color:aqua;
+}
+nav>a:hover{color:orange;
+}
+body{background-color:rgb(6, 6, 56);
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    margin:0rem 0;
+    padding-left:14rem;
+    padding-right: 14rem;
+    padding-top:1rem
+}
+header a{color : rgb(66, 211, 221);   
+}
+header{text-align:center;
+    background-color: rgb(25, 64, 100);
+    padding:0rem;
+    padding-bottom: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+}     
+main{padding:1rem;
+    max-width:60rem;
+    margin:1rem auto;
+    background-color: rgba(25, 64, 100, 0.8);
+}
+.home-content div{display:inline-block;
+            width:60%;
+}
+.home-content img{vertical-align: top;
+            width:38%;
+}
+/*Delete iframe. This should only be in the html.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LYauLiUQ5SI?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
